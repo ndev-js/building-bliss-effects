@@ -1,13 +1,13 @@
 
 import React from 'react';
-import { Users, Building, Clock, Shield } from 'lucide-react';
+import { Users, Shield, Clock, Droplets } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Building, value: '500+', label: 'Projects Completed' },
-    { icon: Users, value: '20+', label: 'Years Experience' },
+    { icon: Shield, value: '500+', label: 'Projects Waterproofed' },
+    { icon: Users, value: '15+', label: 'Years Experience' },
     { icon: Clock, value: '24/7', label: 'Support Available' },
-    { icon: Shield, value: '100%', label: 'Quality Guaranteed' }
+    { icon: Droplets, value: '100%', label: 'Water Protection' }
   ];
 
   return (
@@ -16,17 +16,17 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About MA Constructions
+              About RoyalGripPro
             </h2>
             <p className="text-xl text-gray-300 mb-6">
-              With over two decades of experience in the construction industry, MA Constructions has 
-              established itself as a leader in delivering exceptional construction services.
+              With over 15 years of specialized experience in waterproofing solutions, RoyalGripPro has 
+              established itself as a leader in membrane sheet waterproofing technology.
             </p>
             <p className="text-gray-300 mb-8">
-              Our team of skilled professionals is committed to bringing your vision to life 
-              with precision, quality, and attention to detail. From residential homes to 
-              commercial complexes, we handle projects of all sizes with the same level of 
-              dedication and expertise.
+              Our team of certified professionals is committed to delivering superior waterproofing 
+              solutions using premium membrane sheets and advanced installation techniques. From 
+              residential basements to commercial rooftops, we ensure complete water protection 
+              with long-lasting results.
             </p>
             <div className="grid grid-cols-2 gap-6">
               {stats.map((stat, index) => (
@@ -46,8 +46,8 @@ const About = () => {
           </div>
           <div className="animate-fade-in">
             <img 
-              src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
-              alt="Construction team"
+              src="https://images.unsplash.com/photo-1504307651254-35680f356dfd?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
+              alt="Waterproofing team at work"
               className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-500 border-4 border-yellow-500"
             />
           </div>

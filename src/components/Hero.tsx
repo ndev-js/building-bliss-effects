@@ -10,7 +10,7 @@ const Hero = () => {
       <div 
         className="absolute inset-0 bg-cover bg-center bg-no-repeat"
         style={{
-          backgroundImage: 'url(https://images.unsplash.com/photo-1487958449943-2429e8be8625?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80)'
+          backgroundImage: 'url(https://images.unsplash.com/photo-1541888946425-d81bb19240f5?ixlib=rb-4.0.3&auto=format&fit=crop&w=2000&q=80)'
         }}
       >
         <div className="absolute inset-0 bg-black bg-opacity-70"></div>
@@ -19,12 +19,12 @@ const Hero = () => {
       {/* Content */}
       <div className="relative z-10 text-center text-white max-w-4xl mx-auto px-4 sm:px-6 lg:px-8">
         <h1 className="text-5xl md:text-7xl font-bold mb-6 animate-fade-in">
-          Building Your
-          <span className="block text-yellow-400 animate-pulse">Dreams</span>
+          Professional
+          <span className="block text-yellow-400 animate-pulse">Waterproofing</span>
         </h1>
         <p className="text-xl md:text-2xl mb-8 animate-fade-in opacity-90 animation-delay-300">
-          Professional construction services with over 20 years of experience. 
-          We bring your vision to life with quality craftsmanship.
+          Premium membrane sheet solutions with expert installation. 
+          Protecting your property with advanced waterproofing technology.
         </p>
         <div className="flex justify-center items-center animate-fade-in animation-delay-600">
           <Button 
