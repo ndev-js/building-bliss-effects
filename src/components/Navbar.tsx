@@ -19,6 +19,7 @@ const Navbar = () => {
     { name: 'Services', href: '#services' },
     { name: 'Projects', href: '#projects' },
     { name: 'About', href: '#about' },
+    { name: 'Team', href: '#team' },
     { name: 'Contact', href: '#contact' },
   ];
 
@@ -29,8 +30,8 @@ const Navbar = () => {
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
           <div className="flex items-center space-x-2">
-            <Building className={`h-8 w-8 ${isScrolled ? 'text-blue-600' : 'text-white'}`} />
-            <span className={`text-xl font-bold ${isScrolled ? 'text-gray-900' : 'text-white'}`}>
+            <Building className={`h-8 w-8 ${isScrolled ? 'text-yellow-600' : 'text-white'}`} />
+            <span className={`text-xl font-bold ${isScrolled ? 'text-black' : 'text-white'}`}>
               BuildCorp
             </span>
           </div>
@@ -41,8 +42,8 @@ const Navbar = () => {
               <a
                 key={item.name}
                 href={item.href}
-                className={`transition-colors duration-300 hover:text-orange-500 ${
-                  isScrolled ? 'text-gray-700' : 'text-white'
+                className={`transition-colors duration-300 hover:text-yellow-500 font-medium ${
+                  isScrolled ? 'text-black' : 'text-white'
                 }`}
               >
                 {item.name}
@@ -54,7 +55,7 @@ const Navbar = () => {
           <div className="md:hidden">
             <button
               onClick={() => setIsOpen(!isOpen)}
-              className={`${isScrolled ? 'text-gray-900' : 'text-white'}`}
+              className={`${isScrolled ? 'text-black' : 'text-white'}`}
             >
               {isOpen ? <X className="h-6 w-6" /> : <Menu className="h-6 w-6" />}
             </button>
@@ -69,8 +70,8 @@ const Navbar = () => {
                 <a
                   key={item.name}
                   href={item.href}
-                  className={`transition-colors duration-300 hover:text-orange-500 ${
-                    isScrolled ? 'text-gray-700' : 'text-white'
+                  className={`transition-colors duration-300 hover:text-yellow-500 font-medium ${
+                    isScrolled ? 'text-black' : 'text-white'
                   }`}
                   onClick={() => setIsOpen(false)}
                 >

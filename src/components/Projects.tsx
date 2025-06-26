@@ -32,10 +32,10 @@ const Projects = () => {
   ];
 
   return (
-    <section id="projects" className="py-20 bg-white">
+    <section id="projects" className="py-20 bg-gray-50">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4 animate-fade-in">
             Our Projects
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in">
@@ -57,14 +57,14 @@ const Projects = () => {
                   className="w-full h-64 object-cover transition-transform duration-500 group-hover:scale-110"
                 />
                 <div className="absolute top-4 left-4">
-                  <Badge className="bg-orange-500 hover:bg-orange-600 text-white">
+                  <Badge className="bg-yellow-500 hover:bg-yellow-600 text-black font-semibold">
                     {project.category}
                   </Badge>
                 </div>
                 <div className="absolute inset-0 bg-gradient-to-t from-black/60 to-transparent opacity-0 group-hover:opacity-100 transition-opacity duration-300"></div>
               </div>
               <CardContent className="p-6">
-                <h3 className="text-xl font-bold text-gray-900 mb-2 group-hover:text-orange-500 transition-colors duration-300">
+                <h3 className="text-xl font-bold text-black mb-2 group-hover:text-yellow-600 transition-colors duration-300">
                   {project.title}
                 </h3>
                 <p className="text-gray-600">

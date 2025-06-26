@@ -1,11 +1,11 @@
 
 import React from 'react';
-import { Users, Award, Clock, Shield } from 'lucide-react';
+import { Users, Building, Clock, Shield } from 'lucide-react';
 
 const About = () => {
   const stats = [
-    { icon: Users, value: '500+', label: 'Projects Completed' },
-    { icon: Award, value: '20+', label: 'Years Experience' },
+    { icon: Building, value: '500+', label: 'Projects Completed' },
+    { icon: Users, value: '20+', label: 'Years Experience' },
     { icon: Clock, value: '24/7', label: 'Support Available' },
     { icon: Shield, value: '100%', label: 'Quality Guaranteed' }
   ];
@@ -35,10 +35,10 @@ const About = () => {
                   className="text-center animate-fade-in"
                   style={{ animationDelay: `${index * 100}ms` }}
                 >
-                  <div className="mx-auto w-12 h-12 bg-orange-500 rounded-full flex items-center justify-center mb-3">
-                    <stat.icon className="h-6 w-6 text-white" />
+                  <div className="mx-auto w-12 h-12 bg-yellow-500 rounded-full flex items-center justify-center mb-3">
+                    <stat.icon className="h-6 w-6 text-black" />
                   </div>
-                  <div className="text-2xl font-bold text-orange-500">{stat.value}</div>
+                  <div className="text-2xl font-bold text-yellow-400">{stat.value}</div>
                   <div className="text-sm text-gray-400">{stat.label}</div>
                 </div>
               ))}
@@ -48,7 +48,7 @@ const About = () => {
             <img 
               src="https://images.unsplash.com/photo-1431576901776-e539bd916ba2?ixlib=rb-4.0.3&auto=format&fit=crop&w=800&q=80"
               alt="Construction team"
-              className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-500"
+              className="rounded-lg shadow-2xl hover:scale-105 transition-transform duration-500 border-4 border-yellow-500"
             />
           </div>
         </div>

@@ -32,10 +32,10 @@ const Services = () => {
   ];
 
   return (
-    <section id="services" className="py-20 bg-gray-50">
+    <section id="services" className="py-20 bg-white">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="text-center mb-16">
-          <h2 className="text-4xl md:text-5xl font-bold text-gray-900 mb-4 animate-fade-in">
+          <h2 className="text-4xl md:text-5xl font-bold text-black mb-4 animate-fade-in">
             Our Services
           </h2>
           <p className="text-xl text-gray-600 max-w-3xl mx-auto animate-fade-in">
@@ -47,14 +47,14 @@ const Services = () => {
           {services.map((service, index) => (
             <Card 
               key={index} 
-              className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in border-0 shadow-lg"
+              className="group hover:shadow-xl transition-all duration-300 hover:-translate-y-2 animate-fade-in border-2 border-gray-100 hover:border-yellow-400"
               style={{ animationDelay: `${index * 100}ms` }}
             >
               <CardHeader className="text-center">
-                <div className="mx-auto w-16 h-16 bg-orange-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-orange-500 transition-colors duration-300">
-                  <service.icon className="h-8 w-8 text-orange-500 group-hover:text-white transition-colors duration-300" />
+                <div className="mx-auto w-16 h-16 bg-yellow-100 rounded-full flex items-center justify-center mb-4 group-hover:bg-yellow-500 transition-colors duration-300">
+                  <service.icon className="h-8 w-8 text-yellow-600 group-hover:text-white transition-colors duration-300" />
                 </div>
-                <CardTitle className="text-xl font-bold text-gray-900 group-hover:text-orange-500 transition-colors duration-300">
+                <CardTitle className="text-xl font-bold text-black group-hover:text-yellow-600 transition-colors duration-300">
                   {service.title}
                 </CardTitle>
               </CardHeader>
