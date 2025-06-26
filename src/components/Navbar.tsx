@@ -32,7 +32,7 @@ const Navbar = () => {
           <div className="flex items-center space-x-2">
             <Building className={`h-8 w-8 ${isScrolled ? 'text-yellow-600' : 'text-white'}`} />
             <span className={`text-xl font-bold ${isScrolled ? 'text-black' : 'text-white'}`}>
-              BuildCorp
+              MA Constructions
             </span>
           </div>
 

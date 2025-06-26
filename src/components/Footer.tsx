@@ -18,7 +18,7 @@ const Footer = () => {
           <div className="space-y-4">
             <div className="flex items-center space-x-2">
               <Building className="h-8 w-8 text-yellow-500" />
-              <span className="text-2xl font-bold">BuildCorp</span>
+              <span className="text-2xl font-bold">MA Constructions</span>
             </div>
             <p className="text-gray-400">
               Professional construction services with over 20 years of experience. 
@@ -71,7 +71,7 @@ const Footer = () => {
               </div>
               <div className="flex items-center space-x-3">
                 <Mail className="h-5 w-5 text-yellow-500" />
-                <span>info@buildcorp.com</span>
+                <span>info@maconstructions.com</span>
               </div>
               <div className="flex items-center space-x-3">
                 <MapPin className="h-5 w-5 text-yellow-500" />
@@ -82,7 +82,7 @@ const Footer = () => {
         </div>
 
         <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 BuildCorp. All rights reserved. Built with ❤️ for construction excellence.</p>
+          <p>&copy; 2024 MA Constructions. All rights reserved. Built with ❤️ for construction excellence.</p>
         </div>
       </div>
     </footer>

@@ -16,10 +16,10 @@ const About = () => {
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 items-center">
           <div className="animate-fade-in">
             <h2 className="text-4xl md:text-5xl font-bold mb-6">
-              About BuildCorp
+              About MA Constructions
             </h2>
             <p className="text-xl text-gray-300 mb-6">
-              With over two decades of experience in the construction industry, BuildCorp has 
+              With over two decades of experience in the construction industry, MA Constructions has 
               established itself as a leader in delivering exceptional construction services.
             </p>
             <p className="text-gray-300 mb-8">
