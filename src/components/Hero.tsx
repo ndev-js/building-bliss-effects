@@ -1,6 +1,6 @@
 
 import React from 'react';
-import { ArrowRight, Play } from 'lucide-react';
+import { ArrowRight } from 'lucide-react';
 import { Button } from '@/components/ui/button';
 
 const Hero = () => {
@@ -26,21 +26,13 @@ const Hero = () => {
           Professional construction services with over 20 years of experience. 
           We bring your vision to life with quality craftsmanship.
         </p>
-        <div className="flex flex-col sm:flex-row gap-4 justify-center items-center animate-fade-in animation-delay-600">
+        <div className="flex justify-center items-center animate-fade-in animation-delay-600">
           <Button 
             size="lg" 
             className="bg-yellow-500 hover:bg-yellow-600 text-black px-8 py-3 text-lg font-semibold transition-all duration-300 hover:scale-105"
           >
             Get Started
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
-          <Button 
-            variant="outline" 
-            size="lg"
-            className="border-white text-white hover:bg-white hover:text-black px-8 py-3 text-lg transition-all duration-300 hover:scale-105"
-          >
-            <Play className="mr-2 h-5 w-5" />
-            Watch Video
           </Button>
         </div>
       </div>
