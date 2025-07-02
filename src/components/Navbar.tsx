@@ -1,7 +1,6 @@
 
 import React, { useState, useEffect } from 'react';
-import { Menu, X } from 'lucide-react';
-import Logo from './Logo';
+import { Menu, X, Building } from 'lucide-react';
 
 const Navbar = () => {
   const [isOpen, setIsOpen] = useState(false);
@@ -30,10 +29,12 @@ const Navbar = () => {
     }`}>
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
         <div className="flex justify-between items-center">
-          <Logo 
-            size="sm" 
-            className={isScrolled ? 'text-black' : 'text-white'} 
-          />
+          <div className="flex items-center space-x-2">
+            <Building className={`h-8 w-8 ${isScrolled ? 'text-yellow-600' : 'text-white'}`} />
+            <span className={`text-xl font-bold ${isScrolled ? 'text-black' : 'text-white'}`}>
+              MA Constructions
+            </span>
+          </div>
 
           {/* Desktop Navigation */}
           <div className="hidden md:flex space-x-8">
