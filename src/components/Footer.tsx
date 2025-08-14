@@ -1,88 +1,114 @@
 
-import React from 'react';
-import { Building, User, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin } from 'lucide-react';
+import React from "react";
+import { Building, Phone, Mail, MapPin, Facebook, Twitter, Instagram, Linkedin, User } from "lucide-react";
 
 const Footer = () => {
-  const socialLinks = [
-    { icon: Facebook, href: '#' },
-    { icon: Twitter, href: '#' },
-    { icon: Instagram, href: '#' },
-    { icon: Linkedin, href: '#' }
-  ];
-
   return (
-    <footer className="bg-black text-white py-16 border-t-4 border-yellow-500">
+    <footer className="bg-gradient-to-br from-slate-900 via-blue-950 to-indigo-950 text-white py-16 border-t-4 border-blue-600">
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8">
-        <div className="grid grid-cols-1 md:grid-cols-4 gap-8">
+        <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
           {/* Company Info */}
-          <div className="space-y-4">
-            <div className="flex items-center space-x-2">
-              <Building className="h-8 w-8 text-yellow-500" />
-              <span className="text-2xl font-bold">MA Constructions</span>
+          <div className="lg:col-span-1">
+            <div className="flex items-center space-x-3 mb-6">
+              <div className="w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center">
+                <Building className="h-6 w-6 text-white" />
+              </div>
+              <div>
+                <h3 className="text-xl font-bold">M.A Constructions</h3>
+                <p className="text-blue-300 text-sm">Building Excellence</p>
+              </div>
             </div>
-            <p className="text-gray-400">
+            <p className="text-gray-300 mb-6 leading-relaxed">
               Professional construction services with over 20 years of experience. 
-              Building dreams into reality.
+              We bring your vision to life with quality craftsmanship and innovation.
             </p>
             <div className="flex space-x-4">
-              {socialLinks.map((social, index) => (
-                <a
-                  key={index}
-                  href={social.href}
-                  className="w-10 h-10 bg-gray-800 rounded-full flex items-center justify-center hover:bg-yellow-500 hover:text-black transition-colors duration-300"
-                >
-                  <social.icon className="h-5 w-5" />
-                </a>
-              ))}
+              <a href="#" className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-blue-500/30">
+                <Facebook className="h-5 w-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-blue-500/30">
+                <Twitter className="h-5 w-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-blue-500/30">
+                <Instagram className="h-5 w-5" />
+              </a>
+              <a href="#" className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center hover:bg-blue-600 hover:text-white transition-all duration-300 border border-blue-500/30">
+                <Linkedin className="h-5 w-5" />
+              </a>
             </div>
           </div>
 
           {/* Services */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-yellow-400">Services</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Commercial Construction</a></li>
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Residential Projects</a></li>
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Renovation & Remodeling</a></li>
-              <li><a href="#" className="hover:text-yellow-400 transition-colors">Maintenance Services</a></li>
+            <h3 className="text-xl font-semibold mb-6 text-blue-300">Services</h3>
+            <ul className="space-y-3">
+              <li><a href="#" className="hover:text-blue-300 transition-colors duration-300">Commercial Construction</a></li>
+              <li><a href="#" className="hover:text-blue-300 transition-colors duration-300">Residential Projects</a></li>
+              <li><a href="#" className="hover:text-blue-300 transition-colors duration-300">Renovation & Remodeling</a></li>
+              <li><a href="#" className="hover:text-blue-300 transition-colors duration-300">Maintenance Services</a></li>
+              <li><a href="#" className="hover:text-blue-300 transition-colors duration-300">Project Management</a></li>
             </ul>
           </div>
 
           {/* Quick Links */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-yellow-400">Quick Links</h3>
-            <ul className="space-y-2 text-gray-400">
-              <li><a href="#home" className="hover:text-yellow-400 transition-colors">Home</a></li>
-              <li><a href="#services" className="hover:text-yellow-400 transition-colors">Services</a></li>
-              <li><a href="#projects" className="hover:text-yellow-400 transition-colors">Projects</a></li>
-              <li><a href="#about" className="hover:text-yellow-400 transition-colors">About</a></li>
-              <li><a href="#team" className="hover:text-yellow-400 transition-colors">Team</a></li>
-              <li><a href="#contact" className="hover:text-yellow-400 transition-colors">Contact</a></li>
+            <h3 className="text-xl font-semibold mb-6 text-blue-300">Quick Links</h3>
+            <ul className="space-y-3">
+              <li><a href="#home" className="hover:text-blue-300 transition-colors duration-300">Home</a></li>
+              <li><a href="#services" className="hover:text-blue-300 transition-colors duration-300">Services</a></li>
+              <li><a href="#mission" className="hover:text-blue-300 transition-colors duration-300">Mission</a></li>
+              <li><a href="#about" className="hover:text-blue-300 transition-colors duration-300">About</a></li>
+              <li><a href="#contact" className="hover:text-blue-300 transition-colors duration-300">Contact</a></li>
             </ul>
           </div>
 
           {/* Contact Info */}
           <div>
-            <h3 className="text-xl font-semibold mb-4 text-yellow-400">Contact Info</h3>
-            <div className="space-y-3 text-gray-400">
+            <h3 className="text-xl font-semibold mb-6 text-blue-300">Contact Info</h3>
+            <div className="space-y-4">
               <div className="flex items-center space-x-3">
-                <User className="h-5 w-5 text-yellow-500" />
-                <span>+1 (555) 123-4567</span>
+                <div className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-500/30">
+                  <User className="h-5 w-5 text-blue-300" />
+                </div>
+                <div>
+                  <p className="font-medium">John Doe</p>
+                  <p className="text-sm text-gray-400">Project Manager</p>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
-                <Mail className="h-5 w-5 text-yellow-500" />
-                <span>info@maconstructions.com</span>
+                <div className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-500/30">
+                  <Mail className="h-5 w-5 text-blue-300" />
+                </div>
+                <div>
+                  <p className="font-medium">info@maconstructions.com</p>
+                  <p className="text-sm text-gray-400">Email us anytime</p>
+                </div>
               </div>
               <div className="flex items-center space-x-3">
-                <MapPin className="h-5 w-5 text-yellow-500" />
-                <span>123 Construction Ave<br />Builder City, BC 12345</span>
+                <div className="w-10 h-10 bg-blue-600/20 backdrop-blur-sm rounded-full flex items-center justify-center border border-blue-500/30">
+                  <MapPin className="h-5 w-5 text-blue-300" />
+                </div>
+                <div>
+                  <p className="font-medium">123 Construction Ave</p>
+                  <p className="text-sm text-gray-400">City, State 12345</p>
+                </div>
               </div>
             </div>
           </div>
         </div>
 
-        <div className="border-t border-gray-800 mt-12 pt-8 text-center text-gray-400">
-          <p>&copy; 2024 MA Constructions. All rights reserved. Built with ❤️ for construction excellence.</p>
+        {/* Bottom Section */}
+        <div className="border-t border-blue-800 mt-12 pt-8">
+          <div className="flex flex-col md:flex-row justify-between items-center">
+            <div className="text-gray-400 text-sm mb-4 md:mb-0">
+              © 2024 M.A Constructions. All rights reserved.
+            </div>
+            <div className="flex space-x-6 text-sm">
+              <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors duration-300">Privacy Policy</a>
+              <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors duration-300">Terms of Service</a>
+              <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors duration-300">Cookie Policy</a>
+            </div>
+          </div>
         </div>
       </div>
     </footer>

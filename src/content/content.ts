@@ -1,12 +1,6 @@
 export const featureCardsContent = [
-  {
-    heading: "Our Vision",
-    content: `Our vision is to be a leader in the construction industry, setting new standards of excellence and integrity. We aim to deliver outstanding construction solutions that not only meet but exceed our clients' expectations, ensuring their satisfaction and the success of every project we undertake.`,
-  },
-  {
-    heading: "Our Mission",
-    content: `Our mission is to create spaces that inspire, enhance communities, and stand the test of time. We achieve this by utilizing cutting-edge technology, embracing sustainable practices, and fostering a culture of teamwork and innovation. [Company Name] is dedicated to delivering superior construction services that are on time, on budget, and beyond compare.`,
-  },
+ 
+
   {
     heading: "Our Core Values",
     content: [

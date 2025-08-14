@@ -2,13 +2,15 @@ import React from "react";
 import Navbar from "@/components/Navbar";
 import Hero from "@/components/Hero";
 import Services from "@/components/Services";
-import Projects from "@/components/Projects";
+import Mission from "@/components/Mission";
+import Vision from "@/components/Vision";
+import WhyChooseUs from "@/components/WhyChooseUs";
+import ProjectsSlider from "@/components/ProjectsSlider";
 import About from "@/components/About";
 import Team from "@/components/Team";
 import Contact from "@/components/Contact";
+import FAQ from "@/components/FAQ";
 import Footer from "@/components/Footer";
-import WhyChooseUs from "@/components/WhyChooseUs";
-import Vision from "@/components/Vision";
 
 const Index = () => {
   return (
@@ -16,12 +18,14 @@ const Index = () => {
       <Navbar />
       <Hero />
       <Services />
-      <WhyChooseUs />
+      <Mission />
       <Vision />
-      <Projects />
+      <WhyChooseUs />
+      <ProjectsSlider />
       <About />
       <Team />
       <Contact />
+      <FAQ />
       <Footer />
     </div>
   );
