@@ -389,7 +389,7 @@ const Contact = () => {
               <h4 className="text-xl font-bold mb-4">Why Choose Us?</h4>
               <ul className="space-y-2 text-blue-100">
                 <li>• Free consultation and estimates</li>
-                <li>• Licensed and insured professionals</li>
+             
                 <li>• 20+ years of experience</li>
                 <li>• Quality guaranteed work</li>
                 <li>• Competitive pricing</li>

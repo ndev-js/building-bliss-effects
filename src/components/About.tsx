@@ -104,15 +104,30 @@ const About = () => {
                 Our Story
               </h3>
               <p className="text-gray-300 leading-relaxed mb-6">
-                Founded in 1999, M.A Constructions has grown from a small local contractor to a 
-                respected name in the construction industry. Our journey has been marked by 
-                unwavering commitment to quality, innovation, and customer satisfaction.
+               Our StoryI have been involved as Builders & Project Manager in various Construction Companies since over a period of my completion of my A.Civil Engineer Diploma 1999 from Govt college of technology Lahore and apart from My theoretical studies. 
+              
               </p>
+              <p className="text-gray-300 leading-relaxed mb-6">
+              I practically involved myself in construction companies and by the time I have gone through concrete practical working in various fields of execution from the land breaking UpTo the final structure and UpTo finishing execution.
+              <br/>
+              </p>
+<p className="text-gray-300 leading-relaxed mb-6">
+During My employment tenure many of clients personally approached me to carry out own business in construction side and from 2018 it was determined/planned to through in to the self assessment and holding myself to be more confident and by the(Grace of Allah). 
+</p>
+
+              <p className="text-gray-300 leading-relaxed mb-6">
+              I have been able to  successfully complete various private Residencial, Commercial up to the entire satisfaction of my clients as well, now it's being continued in private sectors at present.
+              In my view point building construction is the process of adding structure to real property or construction of buildings. 
+              </p>
+              <p className="text-gray-300 leading-relaxed mb-6">
+              The majority of building construction jobs are small renovation, such as the addition of room,or renovation. Often,the owner of the property acts as Labour, paymaster and design team for the entire Project through building construction projects.
+              <br/>
+              </p>
+
               <p className="text-gray-300 leading-relaxed">
-                We believe that every project, regardless of size, deserves the same level of 
-                attention to detail and professional excellence. This philosophy has earned us 
-                the trust of hundreds of satisfied clients and numerous industry awards.
+              As a highly experienced sole proprietor of a construction company, I bring a wealth of knowledge, skills, and dedication to every project I undertake with a track record of delivering outstanding results. I am  committed to providing exceptional construction service and contributing to the success of future projects.
               </p>
+             
             </div>
           </div>
 

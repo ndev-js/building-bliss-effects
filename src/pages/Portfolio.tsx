@@ -135,6 +135,15 @@ const Portfolio = () => {
       image: "/12.jpg",
       icon: Home,
       features: ["Bespoke Design", "Family Focused", "Comfort & Style"]
+    },
+    {
+      id: 12,
+      title: "Beaconhouse Renovation work",
+      category: "All",
+      description: "Bespoke family home designed for comfort, functionality, and style",
+      image: "/beaconhouse.jpeg",
+      icon: Home,
+      features: ["Bespoke Design", "Family Focused", "Comfort & Style"]
     }
   ];
 

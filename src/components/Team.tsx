@@ -27,18 +27,20 @@ const Team = () => {
 
   const teamMembers = [
     {
-      name: "John Doe",
-      position: "Project Manager",
+      name: "Ch. Muhammad Asif",
+      position: "CEO",
       experience: "15+ years",
-      image: "https://images.unsplash.com/photo-1507003211169-0a1dd7228f2d?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
-      specialties: ["Project Planning", "Team Leadership", "Quality Control"]
+      image: "/asif.jpeg",
+      specialties: ["A.Civil Engineer"]
+      // specialties: ["A.Civil Engineer","Project Planning", "Team Leadership", "Quality Control"]
     },
     {
-      name: "Sarah Johnson",
-      position: "Senior Architect",
+      name: "Nusrat Waheed Hashmi",
+      position: "Coordination Officer",
       experience: "12+ years",
-      image: "https://images.unsplash.com/photo-1494790108755-2616b612b786?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "/nusrat.jpeg",
       specialties: ["Design Excellence", "Building Codes", "Sustainability"]
+      // specialties: ["Design Excellence", "Building Codes", "Sustainability"]
     },
     {
       name: "Mike Chen",

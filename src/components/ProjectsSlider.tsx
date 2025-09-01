@@ -29,6 +29,15 @@ const ProjectsSlider = () => {
   // Featured projects for homepage slider (showcasing 6 best projects)
   const featuredProjects = [
     {
+      id: 12,
+      title: "Beaconhouse Renovation work",
+      category: "All",
+      description: "Bespoke family home designed for comfort, functionality, and style",
+      image: "/beaconhouse.jpeg",
+      icon: Home,
+      features: ["Bespoke Design", "Family Focused", "Comfort & Style"]
+    },
+    {
       id: 1,
       title: "Modern Residential Villa",
       category: "Residential",
@@ -81,7 +90,8 @@ const ProjectsSlider = () => {
       image: "/6.jpg",
       icon: Home,
       features: ["Complete Renovation", "Modern Upgrades", "Family Focused"]
-    }
+    },
+    
   ];
 
   const nextSlide = () => {
