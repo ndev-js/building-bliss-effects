@@ -2,8 +2,10 @@
 import React from 'react';
 import { ArrowRight, Building, Sparkles } from 'lucide-react';
 import { Button } from '@/components/ui/button';
+import { useNavigate } from 'react-router-dom';
 
 const Hero = () => {
+  const navigate   = useNavigate();
   return (
     <section id="home" className="relative min-h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image */}
@@ -44,15 +46,15 @@ const Hero = () => {
         </p>
         
         <div className="flex flex-col sm:flex-row justify-center items-center gap-4 animate-fade-in animation-delay-600">
-          <Button 
+          {/* <Button 
             size="lg" 
             className="bg-gradient-to-r from-blue-600 to-indigo-600 hover:from-blue-700 hover:to-indigo-700 text-white px-10 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-xl hover:shadow-blue-500/25"
           >
             Get Started
             <ArrowRight className="ml-2 h-5 w-5" />
-          </Button>
+          </Button> */}
           
-          <Button 
+          <Button onClick={() => navigate('/portfolio')}
             variant="outline" 
             size="lg" 
             className="bg-white/10 backdrop-blur-sm border-2 border-white/40 text-white hover:bg-white/20 hover:border-white/60 px-10 py-4 text-lg font-semibold transition-all duration-300 hover:scale-105 shadow-lg"

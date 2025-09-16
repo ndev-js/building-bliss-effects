@@ -181,7 +181,7 @@ During My employment tenure many of clients personally approached me to carry ou
                   <div className="w-24 h-24 bg-white/20 backdrop-blur-sm rounded-2xl flex items-center justify-center mx-auto mb-6 border border-white/30">
                     <Building className="h-12 w-12 text-white" />
                   </div>
-                  <h3 className="text-3xl font-bold mb-4">Building Excellence Since 1999</h3>
+                  <h3 className="text-3xl font-bold mb-4">Building Excellence Since 2018</h3>
                   <p className="text-xl text-blue-100 max-w-2xl mx-auto">
                     Join hundreds of satisfied clients who have trusted us with their construction projects
                   </p>
@@ -225,9 +225,8 @@ During My employment tenure many of clients personally approached me to carry ou
         </div>
 
         {/* Call to Action */}
-        <div className="about-item opacity-0 text-center">
+        {/* <div className="about-item opacity-0 text-center">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-12 shadow-2xl relative overflow-hidden">
-            {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10">
               <div className="absolute top-0 left-0 w-full h-full bg-pattern-dots"></div>
             </div>
@@ -245,7 +244,7 @@ During My employment tenure many of clients personally approached me to carry ou
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

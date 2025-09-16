@@ -167,7 +167,7 @@ const Contact = () => {
 
       <div className="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 relative z-10">
         {/* Header Section */}
-        <div className="text-center mb-24">
+        {/* <div className="text-center mb-24">
           <div className="contact-item opacity-0">
             <div className="inline-flex items-center gap-2 p-3 bg-gradient-to-r from-blue-500/20 to-indigo-500/20 rounded-full mb-8 backdrop-blur-sm border border-blue-400/30">
               <Sparkles className="h-4 w-4 text-blue-600" />
@@ -185,7 +185,7 @@ const Contact = () => {
               and quote. We're here to bring your vision to life.
             </p>
           </div>
-        </div>
+        </div> */}
 
         {/* Contact Form and Info Grid */}
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-16 mb-20">
@@ -423,7 +423,7 @@ const Contact = () => {
               <div className="absolute top-0 left-0 w-full h-full bg-pattern-dots"></div>
             </div>
             
-            <div className="relative z-10">
+            {/* <div className="relative z-10">
               <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
                 Ready to Start Your Project?
               </h3>
@@ -442,7 +442,7 @@ const Contact = () => {
                   <Phone className="h-6 w-6" />
                 </button>
               </div>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

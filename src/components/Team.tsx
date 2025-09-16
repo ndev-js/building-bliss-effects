@@ -43,12 +43,34 @@ const Team = () => {
       // specialties: ["Design Excellence", "Building Codes", "Sustainability"]
     },
     {
-      name: "Mike Chen",
+      name: "Sarfraz Ahmad",
       position: "Site Supervisor",
       experience: "18+ years",
-      image: "https://images.unsplash.com/photo-1472099645785-5658abf4ff4e?ixlib=rb-4.0.3&auto=format&fit=crop&w=400&q=80",
+      image: "/SarfrazAhmad.jpeg",
       specialties: ["Site Management", "Safety Protocols", "Timeline Management"]
-    }
+    },
+    
+    {
+      name: "Shahid Sardar",
+      position: "Planning Engineer",
+      experience: "18+ years",
+      image: "/shahid.jpeg",
+      specialties: ["Site Management", "Safety Protocols", "Timeline Management"]
+    },
+    {
+      name: "Tariq Ameen",
+      position: "Site Engineer",
+      experience: "18+ years",
+      image: "/tariq.jpeg",
+      specialties: ["Site Management", "Safety Protocols", "Timeline Management"]
+    },
+    {
+      name: "Malik Zafar Iqbal",
+      position: "Accountant",
+      experience: "18+ years",
+      image: "/xyz.jpeg",
+      specialties: ["Site Management", "Safety Protocols", "Timeline Management"]
+    },
   ];
 
   const teamStats = [
@@ -130,9 +152,9 @@ const Team = () => {
                   <div className="absolute inset-0 bg-gradient-to-t from-black/60 via-transparent to-transparent"></div>
                   
                   {/* Experience Badge */}
-                  <div className="absolute top-4 right-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
+                  {/* <div className="absolute top-4 right-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-4 py-2 rounded-full text-sm font-semibold">
                     {member.experience}
-                  </div>
+                  </div> */}
                 </div>
 
                 {/* Member Info */}
@@ -143,14 +165,14 @@ const Team = () => {
                   <p className="text-blue-600 font-semibold mb-4">{member.position}</p>
                   
                   {/* Specialties */}
-                  <div className="space-y-2">
+                  {/* <div className="space-y-2">
                     {member.specialties.map((specialty, idx) => (
                       <div key={idx} className="flex items-center gap-2">
                         <div className="w-2 h-2 bg-blue-500 rounded-full flex-shrink-0"></div>
                         <span className="text-gray-600 text-sm">{specialty}</span>
                       </div>
                     ))}
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
@@ -208,7 +230,7 @@ const Team = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="team-item opacity-0 text-center">
+        {/* <div className="team-item opacity-0 text-center">
           <div className="bg-white rounded-3xl p-12 shadow-2xl border border-gray-100">
             <h3 className="text-3xl font-bold text-gray-900 mb-6">
               Ready to Work with Our Team?
@@ -227,7 +249,7 @@ const Team = () => {
               </button>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

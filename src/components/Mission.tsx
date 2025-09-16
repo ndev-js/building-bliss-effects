@@ -125,9 +125,8 @@ const Mission = () => {
         </div>
 
         {/* Enhanced Call to Action */}
-        <div className="mission-item opacity-0 text-center mt-16">
+        {/* <div className="mission-item opacity-0 text-center mt-16">
           <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-10 shadow-2xl relative overflow-hidden">
-            {/* Background Pattern */}
             <div className="absolute inset-0 opacity-10">
               <div className="absolute top-0 left-0 w-full h-full bg-pattern-hex"></div>
             </div>
@@ -145,7 +144,7 @@ const Mission = () => {
               </div>
             </div>
           </div>
-        </div>
+        </div> */}
       </div>
     </section>
   );

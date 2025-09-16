@@ -133,7 +133,7 @@ const WhyChooseUs = () => {
         </div>
 
         {/* Call to Action */}
-        <div className="why-choose-item opacity-0 text-center">
+        {/* <div className="why-choose-item opacity-0 text-center">
           <div className="inline-flex items-center gap-4 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-10 py-5 rounded-full font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group shadow-xl hover:shadow-blue-500/25">
             <span>Start Your Project Today</span>
             <ArrowRight className="h-5 w-5 group-hover:translate-x-1 transition-transform duration-300" />
@@ -141,7 +141,7 @@ const WhyChooseUs = () => {
           <p className="text-gray-400 mt-6 text-sm">
             Whether it's a residential, commercial, or industrial project, M.A Constructions is your trusted partner in construction.
           </p>
-        </div>
+        </div> */}
       </div>
     </section>
   );

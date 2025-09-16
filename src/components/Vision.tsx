@@ -65,27 +65,7 @@ const Vision = () => {
        
 
         {/* Enhanced Call to Action */}
-        <div className="vision-item opacity-0 text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-10 shadow-2xl relative overflow-hidden">
-            {/* Background Pattern */}
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute top-0 left-0 w-full h-full bg-pattern-hex"></div>
-            </div>
-            
-            <div className="relative z-10">
-              <h3 className="text-3xl font-bold text-white mb-4">
-                Let's Build Something Amazing Together
-              </h3>
-              <p className="text-blue-100 mb-8 text-lg max-w-2xl mx-auto">
-                Transform your vision into reality with our innovative construction solutions
-              </p>
-              <div className="inline-flex items-center gap-4 bg-white text-blue-600 px-8 py-4 rounded-full font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 cursor-pointer group shadow-xl">
-                <span>Start Your Project</span>
-                <div className="w-2 h-2 bg-blue-500 rounded-full animate-pulse"></div>
-              </div>
-            </div>
-          </div>
-        </div>
+       
       </div>
     </section>
   );

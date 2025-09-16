@@ -38,50 +38,50 @@ const Services = () => {
   const services = [
     {
       icon: Building,
-      title: "Pre Construction",
+      title: "General Construction",
       subtitle: "Planning & Design Excellence",
       description: `Transform your vision into detailed blueprints with our comprehensive pre-construction services. We handle everything from architectural design to 3D modeling, ensuring your project starts on solid ground.`,
       features: ["Architectural Design", "3D Modeling", "MEP Services", "Landscaping"],
       color: "from-blue-600 to-blue-700",
       bgColor: "from-blue-50 to-blue-100",
       accent: "blue",
-      benefits: ["Cost Optimization", "Risk Mitigation", "Quality Assurance"],
-      stats: { projects: "150+", satisfaction: "98%", timeline: "2-4 weeks" }
+      benefits: ["New Construction Projects", "Renovations & Remodeling", "Tenant Improvements","Interior fit-outs"],
+      // stats: { projects: "150+", satisfaction: "98%", timeline: "2-4 weeks" }
     },
     {
       icon: Hammer,
-      title: "Grey Structure",
+      title: "Commercial Buildings",
       subtitle: "Foundation & Structural Integrity",
       description: `Build with confidence using our expert grey structure construction. We ensure every foundation, column, beam, and slab meets the highest engineering standards for lasting durability.`,
       features: ["Foundation", "Structural Elements", "Quality Materials", "Engineering Standards"],
       color: "from-indigo-600 to-indigo-700",
       bgColor: "from-indigo-50 to-indigo-100",
       accent: "indigo",
-      benefits: ["Structural Integrity", "Durability", "Safety Standards"],
+      benefits: ["Office Buildings", "Educational institutions", "Retail Space & Shopping Centers","Hospitality & Leisure Facilities","Educational Institutions"],
       stats: { projects: "200+", satisfaction: "99%", timeline: "8-12 weeks" }
     },
     {
       icon: Wrench,
-      title: "Finishing Work",
+      title: "Residential Construction",
       subtitle: "Interior & Exterior Perfection",
       description: `Create stunning living spaces with our comprehensive finishing services. From electrical and plumbing to flooring and painting, we bring beauty and functionality to every detail.`,
       features: ["Electrical & Plumbing", "HVAC Systems", "Flooring & Painting", "Aesthetic Elements"],
       color: "from-sky-600 to-sky-700",
       bgColor: "from-sky-50 to-sky-100",
       accent: "sky",
-      benefits: ["Modern Aesthetics", "Functionality", "Comfort"],
+      benefits: ["Custom Homes", "Multi-family Residencies ", ],
       stats: { projects: "180+", satisfaction: "97%", timeline: "6-10 weeks" }
     },
     {
       icon: Construction,
-      title: "Renovation",
+      title: "Project Planning",
       subtitle: "Transform & Modernize",
-      description: `Breathe new life into existing spaces with our renovation expertise. We modernize, extend, and transform while preserving the character and integrity of your original structure.`,
-      features: ["Modern Upgrades", "Extensions", "Space Transformation", "Character Preservation"],
+      description: `Project Planning and Budget estimations with cost control strategies`,
+      features: ["Pre- Construction Planning", "Budgeting & Costing Control"],
       color: "from-blue-700 to-blue-800",
       bgColor: "from-blue-50 to-blue-100",
       accent: "blue",
-      benefits: ["Value Addition", "Modern Living", "Space Optimization"],
+      benefits: ["Pre-Construction Planning", "Budgeting & Costing Control"],
       stats: { projects: "120+", satisfaction: "96%", timeline: "4-8 weeks" }
     }
   ];
@@ -185,18 +185,18 @@ const Services = () => {
                 
                 {/* Quick Stats */}
                 <div className="px-4 pb-4">
-                  <div className="flex justify-between text-xs text-gray-500 mb-3">
+                  {/* <div className="flex justify-between text-xs text-gray-500 mb-3">
                     <span>{service.stats.projects} Projects</span>
                     <span>{service.stats.satisfaction} Satisfaction</span>
-                  </div>
+                  </div> */}
                   
                   {/* Progress Bar */}
-                  <div className="w-full bg-gray-200 rounded-full h-2">
+                  {/* <div className="w-full bg-gray-200 rounded-full h-2">
                     <div 
                       className={`h-2 rounded-full bg-gradient-to-r ${service.color}`}
                       style={{ width: `${parseInt(service.stats.satisfaction)}%` }}
                     ></div>
-                  </div>
+                  </div> */}
                 </div>
               </Card>
             </div>
@@ -251,10 +251,10 @@ const Services = () => {
                 </div>
 
                 {/* CTA Button */}
-                <button className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-blue-500/25 w-fit">
+                {/* <button className="inline-flex items-center gap-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white px-8 py-4 rounded-full font-semibold hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-blue-500/25 w-fit">
                   <span>Learn More</span>
                   <ArrowRight className="h-5 w-5" />
-                </button>
+                </button> */}
               </div>
 
               {/* Right Side - Service Visual */}
@@ -265,19 +265,19 @@ const Services = () => {
                 </div>
                 
                 {/* Floating Stats */}
-                <div className="absolute top-8 right-8 bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg border border-white/20">
+                {/* <div className="absolute top-8 right-8 bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg border border-white/20">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-blue-600">{services[activeService].stats.projects}</div>
                     <div className="text-xs text-gray-600">Projects</div>
                   </div>
-                </div>
+                </div> */}
                 
-                <div className="absolute bottom-8 left-8 bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg border border-white/20">
+                {/* <div className="absolute bottom-8 left-8 bg-white/80 backdrop-blur-sm rounded-2xl p-4 shadow-lg border border-white/20">
                   <div className="text-center">
                     <div className="text-2xl font-bold text-indigo-600">{services[activeService].stats.satisfaction}</div>
                     <div className="text-xs text-gray-600">Satisfaction</div>
                   </div>
-                </div>
+                </div> */}
               </div>
             </div>
 
@@ -314,43 +314,7 @@ const Services = () => {
         </div>
 
         {/* Enhanced Call to Action */}
-        <div className="service-item opacity-0 text-center">
-          <div className="bg-gradient-to-r from-blue-600 to-indigo-600 rounded-3xl p-16 shadow-2xl relative overflow-hidden">
-            {/* Background Pattern */}
-            <div className="absolute inset-0 opacity-10">
-              <div className="absolute top-0 left-0 w-full h-full bg-pattern-dots"></div>
-            </div>
-            
-            {/* Floating Elements */}
-            <div className="absolute top-8 left-8 w-16 h-16 bg-white/10 rounded-full animate-float"></div>
-            <div className="absolute bottom-8 right-8 w-12 h-12 bg-white/10 rounded-full animate-float" style={{ animationDelay: '1s' }}></div>
-            
-            <div className="relative z-10">
-              <div className="inline-flex items-center gap-3 p-3 bg-white/20 rounded-full mb-8 backdrop-blur-sm border border-white/30">
-                <Award className="h-5 w-5 text-white" />
-                <span className="text-white text-sm font-medium">Ready to Start?</span>
-              </div>
-              
-              <h3 className="text-4xl md:text-5xl font-bold text-white mb-6">
-                Let's Build Something Amazing Together
-              </h3>
-              <p className="text-blue-100 mb-10 text-xl max-w-3xl mx-auto leading-relaxed">
-                Transform your construction vision into reality with our comprehensive services and expert team
-              </p>
-              
-              <div className="flex flex-col sm:flex-row gap-4 justify-center items-center">
-                <button className="inline-flex items-center gap-3 bg-white text-blue-600 px-10 py-5 rounded-full font-semibold text-lg hover:shadow-lg hover:scale-105 transition-all duration-300 shadow-xl hover:shadow-white/25">
-                  <span>Get Started Today</span>
-                  <ArrowRight className="h-6 w-6" />
-                </button>
-                <button className="inline-flex items-center gap-3 bg-white/10 backdrop-blur-sm text-white px-10 py-5 rounded-full font-semibold text-lg border border-white/30 hover:bg-white/20 transition-all duration-300">
-                  <span>Schedule Consultation</span>
-                  <Zap className="h-6 w-6" />
-                </button>
-              </div>
-            </div>
-          </div>
-        </div>
+        
       </div>
     </section>
   );

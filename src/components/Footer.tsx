@@ -71,8 +71,8 @@ const Footer = () => {
                   <User className="h-5 w-5 text-blue-300" />
                 </div>
                 <div>
-                  <p className="font-medium">John Doe</p>
-                  <p className="text-sm text-gray-400">Project Manager</p>
+                  <p className="font-medium">Muhammad Asif </p>
+                  <p className="text-sm text-gray-400">CEO</p>
                 </div>
               </div>
               <div className="flex items-center space-x-3">
@@ -80,7 +80,7 @@ const Footer = () => {
                   <Mail className="h-5 w-5 text-blue-300" />
                 </div>
                 <div>
-                  <p className="font-medium">info@maconstructions.com</p>
+                  <p className="font-medium">maconstructions097@gmail.com</p>
                   <p className="text-sm text-gray-400">Email us anytime</p>
                 </div>
               </div>
@@ -89,8 +89,10 @@ const Footer = () => {
                   <MapPin className="h-5 w-5 text-blue-300" />
                 </div>
                 <div>
-                  <p className="font-medium">123 Construction Ave</p>
-                  <p className="text-sm text-gray-400">City, State 12345</p>
+                  <p className="font-medium">76-Rose Commercial Ground floor
+                                    
+</p>
+                  <p className="text-sm text-gray-400"> Park View City Multan Road Lahore</p>
                 </div>
               </div>
             </div>
@@ -103,11 +105,11 @@ const Footer = () => {
             <div className="text-gray-400 text-sm mb-4 md:mb-0">
               © 2024 M.A Constructions. All rights reserved.
             </div>
-            <div className="flex space-x-6 text-sm">
+            {/* <div className="flex space-x-6 text-sm">
               <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors duration-300">Privacy Policy</a>
               <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors duration-300">Terms of Service</a>
               <a href="#" className="text-gray-400 hover:text-blue-300 transition-colors duration-300">Cookie Policy</a>
-            </div>
+            </div> */}
           </div>
         </div>
       </div>

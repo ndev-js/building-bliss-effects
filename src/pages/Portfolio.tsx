@@ -296,7 +296,7 @@ const Portfolio = () => {
           </div>
 
           {/* Call to Action */}
-          <div className="portfolio-item opacity-0 text-center">
+          {/* <div className="portfolio-item opacity-0 text-center">
             <div className="bg-white rounded-2xl p-8 shadow-lg border border-gray-100">
               <h3 className="text-2xl font-bold text-gray-900 mb-4">
                 Ready to Start Your Project?
@@ -321,7 +321,7 @@ const Portfolio = () => {
                 </Link>
               </div>
             </div>
-          </div>
+          </div> */}
         </div>
 
         {/* Project Modal */}

@@ -32,16 +32,18 @@ const Navbar = () => {
               <div className="flex items-center gap-6">
                 <div className="flex items-center gap-2">
                   <Phone className="h-4 w-4 text-blue-300" />
-                  <span>+1 (555) 123-4567</span>
+                  <span>+923004652125</span>
                 </div>
                 <div className="flex items-center gap-2">
                   <Mail className="h-4 w-4 text-blue-300" />
-                  <span>info@maconstructions.com</span>
+                  <span>maconstructions097@gmail.com</span>
                 </div>
               </div>
               <div className="flex items-center gap-2">
                 <MapPin className="h-4 w-4 text-blue-300" />
-                <span>123 Construction Ave, City, State</span>
+                <span>76-Rose Commercial Ground floor
+                                     Park View City Multan Road Lahore
+</span>
               </div>
             </div>
           </div>
@@ -58,23 +60,8 @@ const Navbar = () => {
           <div className="flex justify-between items-center">
             {/* Logo */}
             <div className="flex items-center space-x-3 group">
-              <div className={`w-12 h-12 bg-gradient-to-br from-blue-600 to-indigo-600 rounded-xl flex items-center justify-center shadow-lg group-hover:shadow-xl transition-all duration-300 ${
-                isScrolled ? 'scale-100' : 'scale-110'
-              }`}>
-                <Building className={`h-6 w-6 ${isScrolled ? 'text-white' : 'text-white'}`} />
-              </div>
-              <div className="hidden sm:block">
-                <div className={`font-bold text-xl transition-colors duration-300 ${
-                  isScrolled ? 'text-gray-900' : 'text-white'
-                }`}>
-                  M.A Constructions
-                </div>
-                <div className={`text-xs transition-colors duration-300 ${
-                  isScrolled ? 'text-blue-600' : 'text-blue-200'
-                }`}>
-                  Building Excellence
-                </div>
-              </div>
+              
+             <img src="/logo.png" alt="logo" className="w-[60px] h-[60px]"/>
             </div>
 
             {/* Desktop Navigation */}
@@ -95,7 +82,7 @@ const Navbar = () => {
             </div>
 
             {/* CTA Button */}
-            <div className="hidden lg:block">
+            {/* <div className="hidden lg:block">
               <button className={`px-6 py-3 rounded-full font-semibold transition-all duration-300 hover:scale-105 shadow-lg hover:shadow-xl ${
                 isScrolled
                   ? "bg-gradient-to-r from-blue-600 to-indigo-600 text-white hover:from-blue-700 hover:to-indigo-700"
@@ -103,7 +90,7 @@ const Navbar = () => {
               }`}>
                 Get Quote
               </button>
-            </div>
+            </div> */}
 
             {/* Mobile Menu Button */}
             <div className="lg:hidden">
@@ -135,11 +122,11 @@ const Navbar = () => {
                       {item.name}
                     </a>
                   ))}
-                  <div className="pt-3 border-t border-blue-100">
+                  {/* <div className="pt-3 border-t border-blue-100">
                     <button className="w-full px-6 py-3 bg-gradient-to-r from-blue-600 to-indigo-600 text-white rounded-lg font-semibold hover:from-blue-700 hover:to-indigo-700 transition-all duration-300">
                       Get Quote
                     </button>
-                  </div>
+                  </div> */}
                 </div>
               </div>
             </div>
